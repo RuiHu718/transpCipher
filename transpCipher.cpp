@@ -68,7 +68,7 @@ string decrypt(string ciphertext, string key) {
 
   Grid<char> cipherG;
   loadCipherText(cipherG, ciphertext, key);
-  transferCipherGrid(cipherG, "COMPSCI");
+  transferCipherGrid(cipherG, key); // made a change here
 
   for (int i = 0; i < cipherG.numRows(); i++) {
     for (int j = 0; j < cipherG.numCols(); j++) {
