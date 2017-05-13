@@ -7,7 +7,7 @@ using namespace std;
 
 // Transposition Cipher
 
-const char PAD = '~'; // padding character for cipher
+const char PAD = '%'; // padding character for cipher
 
 // Function Prototypes
 string encrypt(string plaintext, string key);
